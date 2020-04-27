@@ -6,7 +6,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-
+/**Clase que realiza la conexión con la base de datos
+ * 
+ * @author Andy
+ *
+ */
 public class Conexion{
 	
 	private static final String CONTROLADOR = "com.mysql.jdbc.Driver";
@@ -24,7 +28,7 @@ public class Conexion{
 			e.printStackTrace();
 		}
     }
-    
+ 
     public static Connection conectar() 
 	{
 		Connection conexion = null;
@@ -40,6 +44,11 @@ public class Conexion{
 		}
 		return conexion;
 	}
+    /**
+     *    
+     * @return retorna conexion, que se usa en el siguiente métoso con el
+     * fin de realizar la conexión con la base de datos
+     */
 }
 
 
