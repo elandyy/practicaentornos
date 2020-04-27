@@ -32,7 +32,9 @@ public class Menu {
 					cn=Conexion.conectar();
 					stm=cn.createStatement();
 					rs=stm.executeQuery("select*from info");
-					
+					/**
+					 * Mostrará los datos de la base de datos
+					 */
 					while(rs.next()) {
 						String nombre=rs.getString(1);
 						String apellidos=rs.getString(2);
