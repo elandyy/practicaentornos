@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 /**
- * Clase principal que pide la introducción de un valor para luego mostrar los datos de la base de datos en caso que el dato
+ Clase principal que pide la introducción de un valor para luego mostrar los datos de la base de datos en caso que el dato
  * introducido sea correcto
  * @author Andy
  */

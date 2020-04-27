@@ -9,7 +9,6 @@ import java.sql.Statement;
 /**Clase que realiza la conexión con la base de datos
  * 
  * @author Andy
- *
  */
 public class Conexion{
 	/**

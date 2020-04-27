@@ -3,7 +3,6 @@ package agenda;
  * Clase que contiene información de unas personas
  * 
  * @author Andy
- *
  */
 public class Persona {
 
