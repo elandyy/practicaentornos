@@ -1,0 +1,21 @@
+/*La base de datos se llama conexionBD*/
+
+drop database if exists conexionBD;
+create database conexionBD;
+use conexionBD;
+create table info
+(
+	nombre varchar(20),
+    apellidos varchar(20), 
+	dirección varchar(40),
+    mail varchar(20),
+    teléfono varchar (20)
+);
+
+insert into info values ('Antonio', 'Cuerzo Saltarín', 'c/Avenida Roja, nº1', 'acs@gmail.com','666666666');
+insert into info values ('Lucía', 'Martínez Sobera', 'c/Paso Rojo,nº23 ', 'lms@gmail.com','666666665');
+insert into info values ('Julián', 'Donoso Poveda', 'c/Buenas Tardes', 'jdp@gmail.com','666666664');
+insert into info values ('Celia ', 'Angulo Fernandes', 'c/Las cazuelas', 'caf@gmail.com','666666663');
+insert into info values ('Alicia ', 'Maroto Simo', 'c/Castillo Alto, nº31', 'ams@gmail.com','666666662');
+
+
